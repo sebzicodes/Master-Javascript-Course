@@ -18,7 +18,7 @@ module.exports = function checkContents(input) {
 };
 
 /*
---More proper syntax of function--
+--More proper syntax of function -- must remove note to test actual function--
 module.exports = function checkContents(input) {
     if (input == null) return "absent";
     if (typeof input === "string" && input.length === 0) return "empty";
