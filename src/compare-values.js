@@ -4,7 +4,7 @@ module.exports = function compareValues(a, b, mode) {
         return looseComp;
     }
     if(mode === "strict") {
-        const strictComp = a ===b;
+        const strictComp = a === b;
         return strictComp;
     }
     if(mode !== "strict" && mode !== "loose")
