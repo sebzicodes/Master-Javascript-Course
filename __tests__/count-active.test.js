@@ -1,4 +1,4 @@
-const countActive = require("../count.active");
+const countActive = require("../src/count-active");
 describe("countActive", () => {
     test("counts only alarms with status 'active", () => {
         const alarms = [
