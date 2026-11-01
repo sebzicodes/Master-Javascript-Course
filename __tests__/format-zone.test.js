@@ -1,4 +1,4 @@
-const formatZone = require("./format-zone.test");
+const formatZone = require("../src/format-zone");
 describe("formatZone", () => {
     test("formats a number zone", () => {
         expect(formatZone(4)).toBe("Zone 4");
